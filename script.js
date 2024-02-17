@@ -55,5 +55,6 @@ function click(){
 function reset(){
     console.log('+')
     document.cookie = `score=${score}; max-age=-1`
+    location.reload()
 }
 box.addEventListener('click', click)
